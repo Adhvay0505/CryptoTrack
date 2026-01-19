@@ -2,14 +2,30 @@
 
 A Python CLI tool that displays live cryptocurrency rates using the CoinGecko public API (no API key required).
 
-## Setup
+## Prerequisites
 
-1. Activate the virtual environment:
+- Python 3.7 or higher
+
+## Installation
+
+1. Clone this repository:
    ```bash
-   source crypto_env/bin/activate
+   git clone <repository-url>
+   cd CryptoTrack
    ```
 
-2. The tool is ready to use! All dependencies are installed.
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. The tool is now ready to use!
 
 ## Usage
 
