@@ -74,6 +74,8 @@ class CryptoTracker:
     
     def format_change(self, change: float) -> str:
         """Format percentage change with color indicators"""
+        if change is None:
+            return "N/A"
         if change > 0:
             return f"\033[92m+{change:.2f}%\033[0m"  # Green
         elif change < 0:
