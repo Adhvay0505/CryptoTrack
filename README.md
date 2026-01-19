@@ -101,6 +101,7 @@ python cryptotrack.py --interactive
 
 - bitcoin, btc
 - ethereum, eth
+- Monero, xmr
 - cardano, ada
 - solana, sol
 - polkadot, dot
